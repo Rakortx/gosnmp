@@ -1,9 +1,10 @@
 module github.com/Rakortx/gosnmp
 
-go 1.20
+go 1.22.0
 
 require (
-	github.com/google/go-cmp v0.6.0
+	github.com/golang/mock v1.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/gopacket v1.1.19
 	github.com/stretchr/testify v1.10.0
 )
