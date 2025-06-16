@@ -10,11 +10,6 @@ import (
 	"log"
 	"strconv"
 	"strings"
-<<<<<<< HEAD
-=======
-
-	g "github.com/gosnmp/gosnmp"
->>>>>>> upstream/master
 )
 
 func main() {

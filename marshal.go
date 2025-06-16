@@ -378,7 +378,7 @@ func (x *GoSNMP) sendOneRequest(packetOut *SnmpPacket,
 				case usmStatsNotInTimeWindows:
 					break waitingResponse
 				case usmStatsUnknownUserNames:
-					break waitingResponse
+					return result, ErrUnknownUsername
 				case usmStatsUnknownEngineIDs:
 					break waitingResponse
 				case usmStatsWrongDigests:

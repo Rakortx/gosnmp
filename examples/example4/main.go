@@ -10,11 +10,6 @@ import (
 	"log"
 	"os"
 	"time"
-<<<<<<< HEAD
-=======
-
-	g "github.com/gosnmp/gosnmp"
->>>>>>> upstream/master
 )
 
 const (
