@@ -10,11 +10,16 @@ import (
 	"log"
 	"os"
 	"time"
+<<<<<<< HEAD
+=======
+
+	g "github.com/gosnmp/gosnmp"
+>>>>>>> upstream/master
 )
 
 const (
 	On  int = 1
-	Off     = 2
+	Off int = 2
 )
 
 func main() {
